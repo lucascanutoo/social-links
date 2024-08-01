@@ -1,0 +1,46 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: #141414;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1F1F1F;
+    color: white;
+    width: 375px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card .info {
+    color: hsl(75, 94%, 57%);
+}
+
+.button {
+    background-color: #333333;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 12px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+ }
+
+ .button:hover {
+    background-color: #464646;
+ }
+
+ .links {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+ }
